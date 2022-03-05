@@ -1,0 +1,323 @@
+body{
+    margin: 0px;
+    @media print {
+        background: red;
+    }
+}
+
+h1{
+    font-size: 70px;
+    margin-top:50px;
+    line-height: 2;
+    font-family: 'Sacramento',cursive;
+    color: #231E23;
+}
+h2{
+    font-size:35px;
+    line-height: 1;
+    font-family: 'Bebas Neue', cursive;
+    color:#194350;
+}
+h3{
+    font-size:30px;
+    font-family: 'Redressed', cursive;
+    color:#483434;
+} 
+h4{
+    font-family: 'Merriweather',serif;
+    color:#141E61;
+    font-size:20px;
+    line-height: 2;
+}
+p{
+    font-size: 19px;
+    color:#072227;
+    font-family: 'Lobster Two', cursive;
+    line-height: 2;
+}
+hr{ 
+    border-style: none;
+    border-top-style: dotted;  
+    border-color: grey;
+    border-width: 10px;
+    width: 15%;
+} 
+
+.name{
+    text-decoration: underline overline;
+}
+.name:hover{
+    background-color: #57CC99;
+}
+.sensei:hover{
+    background-color: #4dd89c;
+}
+.logo{
+    padding:10px;
+    background-color: #E4F9F5;
+} 
+
+.herologo{
+    max-width: 27%;
+    padding:20px;
+    position: relative;
+    left:1000px;
+}
+
+.deku{
+    max-width: 37%;
+    padding: 3px;
+    position: relative;
+    left:60px;
+    top:7px;
+}
+
+.willpower{
+    position: absolute;
+    top:930px;
+    right:20px;
+}
+
+.fullpower{
+    max-width: 70%;
+    position: absolute;
+    top:2640px;
+    right:40px;
+}
+.shootstyle{
+    position: absolute;
+    top:1810px;
+    right:30px;
+}
+.flow{
+    position:relative;
+    left:70px;
+}
+
+.showcase{
+    max-width: 45%;
+    float:right;
+    position: absolute;
+    left:1000px;
+    top:200px;
+}
+
+.mainquirk{
+    width:50%;
+    margin-left: 100px;
+}
+
+.allmight{
+    max-width: 38%;
+    position: absolute;
+    left:920px;
+    top:6980px; 
+}
+
+.quirks:hover{
+    background-color: #37e097;
+}
+.quirks{
+    text-decoration: underline overline;
+    font-size: 90px;
+}
+.sensei{
+    text-decoration: underline overline;
+}
+
+.oneforall{
+    max-width:70%;
+    float:left;
+    margin-right:30px;
+    margin-top: 10px;
+}
+
+.sayan{
+    max-width: 90%;
+    height: 10%;
+    position: absolute;
+    bottom:117rem;
+    left:55rem;
+}
+
+.quirk1{
+    float:left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+.quirk2{
+    float:left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.quirk3{  
+    float:left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.quirk4{
+    float:left;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.quirk5{
+    float:left;
+    box-sizing: border-box;
+    width: 50%;
+} 
+
+.quirk6{
+    float:left;
+    box-sizing: border-box;
+    width: 50%;   
+}
+
+.fajin{
+    max-width: 60%;
+    padding: 5px;
+    position: relative;
+    left:100px;
+}
+
+.dangersense{
+    max-width: 60%;
+    padding: 5px;
+    position: relative;
+    left:100px;
+}
+
+.blackwhip{
+    max-width: 60%;
+    padding: 5px;
+    position: relative;
+    left:100px;
+}
+
+.smokescreen{
+    max-width: 60%;
+    padding: 5px;
+    position: relative;
+    left: 150px;
+}
+
+.float{
+    max-width: 60%;
+    padding: 5px;
+    position: relative;
+    left:30px;
+}
+
+#top-container{
+    background-color: #E4F9F5;
+    padding: 5px;
+    position:relative;
+    padding-bottom: 100px;
+}
+
+#middle-container{
+    background-color:#c9f1d3;
+    padding: 5px;
+    position: relative;
+    padding-bottom: 1640px;
+}
+
+#bottom-container{
+    background-color:#b4f3c3;
+    padding: 5px;
+}
+
+#contact-container{
+    background-color: #b5e9c2;
+    padding:5px;
+}
+
+.geek{
+    max-width: 10%;
+}
+
+.mailicon{
+    max-width: 5%;
+}
+
+.github{
+    color:#11999e;
+    font-family: 'Redressed', cursive;
+    max-width: 5%;
+    position: relative;
+    right: 150px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.github:hover{
+    background-color: #EAF6F6;
+}
+.linkedin{
+    color:#11999e;
+    font-family: 'Redressed', cursive;
+    max-width: 5%;
+    position: relative;
+    left:140px; 
+    bottom:192.5px; 
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.linkedin:hover{
+    background-color: #EAF6F6;
+}
+.copyright{
+    position: relative;
+    bottom:150px;
+    padding:20px 0;
+    margin-bottom: 0px;
+    color:#11a3a8;
+    font-size: 1.65rem;
+}
+.about{
+    text-decoration: underline overline;   
+}
+.about:hover{
+    background-color: #41cc90;
+}
+
+.contact {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Redressed', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contact:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+/* 
+ @media (max-width:1028px){
+
+    .name{
+        text-align: center;
+    }
+      .herologo{
+          position: static;
+          transform: rotate();
+      }
+  } */
